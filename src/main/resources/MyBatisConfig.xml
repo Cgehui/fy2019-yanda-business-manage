@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+  <!--配置log4j日志-->
+  <settings>
+    <setting name="logImpl" value="LOG4J"/>
+  </settings>
+
+  <!--给包名类名 起别名-->
+  <typeAliases>
+    <!--<typeAlias type="com.neuedu.pojo.UserInfo" alias="user"></typeAlias>-->
+    <!--<typeAlias type="com.neuedu.pojo.Dept" alias="dept"></typeAlias>-->
+    <!--<typeAlias type="com.neuedu.pojo.Emp" alias="emp"></typeAlias>-->
+
+  </typeAliases>
+
+
+  <!--<environments default="development">-->
+    <!--<environment id="development">-->
+      <!--<transactionManager type="JDBC">-->
+      <!--</transactionManager>-->
+      <!--<dataSource type="POOLED">-->
+        <!--<property name="driver" value="com.mysql.jdbc.Driver"/>-->
+        <!--<property name="url" value="jdbc:mysql://localhost:3306/scott?useUnicode=true&amp;characterEncoding=gb2312"/>-->
+        <!--<property name="username" value="root"/>-->
+        <!--<property name="password" value="9876"/>-->
+      <!--</dataSource>-->
+    <!--</environment>-->
+  <!--</environments>-->
+
+
+<!--&lt;!&ndash;加载sql文件&ndash;&gt;-->
+  <!--<mappers>-->
+	    <!--<mapper resource="com/neuedu/dao/userMapper.xml"/>-->
+    <!--<mapper resource="com/neuedu/dao/ILoginDao.xml"/>-->
+    <!--<mapper resource="com/neuedu/dao/IDeptDao.xml"/>-->
+   <!--&lt;!&ndash; <mapper resource="com/neuedu/dao/IEmpDao.xml"/>&ndash;&gt;-->
+
+  <!--</mappers>-->
+
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
